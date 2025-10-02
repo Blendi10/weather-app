@@ -146,7 +146,7 @@ class WeatherSummaryCard extends StatelessWidget {
                   MetricChip(
                     icon: Icons.grain,
                     label:
-                        'Rain ${w.rain?.lastHourVolume?.toStringAsFixed(1)} mm}',
+                        'Rain ${w.rain?.lastHourVolume?.toStringAsFixed(1)} mm',
                   ),
                 if (w.snow?.lastHourVolume != null)
                   MetricChip(
